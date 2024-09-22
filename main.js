@@ -36,7 +36,7 @@ function groupUsersTLD(users) {
 
     const TLDSplit = website.split(".");
     // Can use .at here as well
-    const TLD = TLDSplit[TLDSplit.length - 1];
+    const TLD = `.${TLDSplit[TLDSplit.length - 1]}`;
     // If this is a new TLD intialize with the empty array
     if (!accum[TLD]) accum[TLD] = [];
     // Append the current user to the TLD
