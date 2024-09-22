@@ -1,4 +1,4 @@
-# Knauf Digital Front end Task
+# Knauf Digital Front End Task
 
 
 
@@ -9,7 +9,7 @@ This repo contains a simple front end task demo. The `main.css` and `main.html` 
 ## Steps
 * Fetch users
 * Parse response
-* Group users by each TLD name. Ex. `{ [.com]: [user1, user2], [.net]: [user3,user4] } `
+* Group users by each TLD name. Ex. `{ [.com]: [user1, user2], [.net]: [user3, user4] } `
 * Loop over the grouped users and render each column using the given `renderColumn` function
 
 ---
