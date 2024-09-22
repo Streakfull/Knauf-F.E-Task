@@ -47,8 +47,6 @@ function groupUsersTLD(users) {
   return userGroup;
 }
 
-//await fetchUsers();
-
 function main() {
   fetchUsers()
     .then(response => {
